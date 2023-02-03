@@ -1,3 +1,7 @@
+# Sumber file ada di sini
+# https://pyshine.com/Socket-Programming-send-receive-live-audio/
+# https://www.youtube.com/watch?v=tAgJkRCS2Os
+
 import socket, cv2, pickle,struct,time
 import pyshine as ps
 
