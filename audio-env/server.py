@@ -1,6 +1,7 @@
 # Sumber file ada di sini
 # https://pyshine.com/Socket-Programming-send-receive-live-audio/
 # https://www.youtube.com/watch?v=tAgJkRCS2Os
+# menggunakan repo git https://github.com/rentanu/pythonaudio
 
 import socket, cv2, pickle,struct,time
 import pyshine as ps
@@ -12,7 +13,7 @@ audio,context= ps.audioCapture(mode=mode)
 
 # Socket Create
 server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = '192.168.1.105'
+host_ip = '192.168.18.6'
 port = 4982
 backlog = 5
 socket_address = (host_ip,port)
